@@ -10,6 +10,7 @@ var path = __dirname+'/sample-images/blue-bottle-coffee.jpg';
     dstPath: 'cropped.jpg',
     width: 200,
     height: 90,
+    offset: {x:2, y:2},
     quality: 1
   }, function (err, stdout, stderr){
     if (err) return console.error(err.stack || err);
