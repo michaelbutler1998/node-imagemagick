@@ -153,6 +153,7 @@ im.crop({
   dstPath: 'cropped.jpg',
   width: 800,
   height: 600,
+  offset: 
   quality: 1,
   gravity: "North"
 }, function(err, stdout, stderr){
